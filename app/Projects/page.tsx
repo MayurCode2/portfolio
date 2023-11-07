@@ -6,6 +6,7 @@ import Xflix from "../../assets/xflix.png";
 import Xbord from "../../assets/xboard.png";
 import Qtrip from "../../assets/qtrip.png";
 import Qtify from "../../assets/qtify.png";
+import Scketch from "../../assets/scketch.png"
 import { motion } from "framer-motion";
 
 function page() {
@@ -21,7 +22,7 @@ function page() {
           <div>
             <p>my projects</p>
             <h1 className=" text-4xl font-extrabold">
-              Work that I've <br /> done in the <br /> past
+              Work that I&apos;ve <br /> done in the <br /> past
             </h1>
             <div className=" border-dashed mt-5  border-2 border-black"></div>
           </div>
@@ -160,51 +161,51 @@ function page() {
             <div className="max-w-xs rounded-xl overflow-hidden shadow-lg">
               <div className="relative w-72 h-56 border border-gray-400 rounded-xl ">
                 <Image
-                  src={Xbord}
+                  src={Scketch}
                   alt="qkart"
                   className="w-full h-full object-contain rounded-xl"
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 hover:rounded-xl transition-opacity duration-300 bg-black bg-opacity-70">
                   <div className="text-white m-5">
-                    <h2 className="text-lg font-semibold">XBoard</h2>
+                    <h2 className="text-lg font-semibold">Sketch Board</h2>
                     <p className="text-xs">
-                    XBoard is a News Feed website that will feature the latest news for select topics, from Flipboard
+                    Real-Time Collaborative Sketch Board web app for live collaborative sketching and sharing with multiple users
                     </p>
                     <div className="flex">
                       <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
-                      HTML
+                      next js
 
                       </p>
                       <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
-                      CSS
+                      canvas
                       </p>
                     </div>
                     <div className="flex">
                       <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
-                      Bootstrap
+                      socket io
                       </p>
                       <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
-                      JavaScript
+                      node js
                       </p>
                     </div>
                     <div className="flex">
                       <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
-                      DOM Manipulation
+                      express
                       </p>
                       <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
-                      Bootstrap
+                     cors
                       </p>
                     </div>
                     <div className="flex justify-between">
                       <a
-                        href="https://github.com/MayurCode2/Qkart-shopping-app"
+                        href="https://github.com/MayurCode2/DrawShare"
                         className="text-sm text-white"
                         target="_blank"
                       >
                         Github
                       </a>
                       <a
-                        href="https://samachar-xboard.netlify.app/"
+                        href="https://draw-share.vercel.app/"
                         className="text-sm text-white "
                         target="_blank"
                       >
@@ -348,11 +349,59 @@ function page() {
 
           <div className="mt-5 mb-10">
             <div className="max-w-xs rounded-xl overflow-hidden shadow-lg">
-              <div className="relative w-72 h-56 border border-gray-400 rounded-xl ">
-               
+            <div className="relative w-72 h-56 border border-gray-400 rounded-xl ">
+                <Image
+                  src={Xbord}
+                  alt="qkart"
+                  className="w-full h-full object-contain rounded-xl"
+                />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 hover:rounded-xl transition-opacity duration-300 bg-black bg-opacity-70">
                   <div className="text-white m-5">
-                    <h2 className="text-lg font-semibold">Coming soon...</h2>
+                    <h2 className="text-lg font-semibold">XBoard</h2>
+                    <p className="text-xs">
+                    XBoard is a News Feed website that will feature the latest news for select topics, from Flipboard
+                    </p>
+                    <div className="flex">
+                      <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
+                      HTML
+
+                      </p>
+                      <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
+                      CSS
+                      </p>
+                    </div>
+                    <div className="flex">
+                      <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
+                      Bootstrap
+                      </p>
+                      <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
+                      JavaScript
+                      </p>
+                    </div>
+                    <div className="flex">
+                      <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
+                      DOM Manipulation
+                      </p>
+                      <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
+                      Bootstrap
+                      </p>
+                    </div>
+                    <div className="flex justify-between">
+                      <a
+                        href="https://github.com/MayurCode2/Qkart-shopping-app"
+                        className="text-sm text-white"
+                        target="_blank"
+                      >
+                        Github
+                      </a>
+                      <a
+                        href="https://samachar-xboard.netlify.app/"
+                        className="text-sm text-white "
+                        target="_blank"
+                      >
+                        Demo
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
