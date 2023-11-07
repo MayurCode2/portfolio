@@ -3,8 +3,7 @@
 import React from "react";
 import profile from "../../assets/profile-pic.png";
 import Image from "next/image";
-import Github from "../../assets/github.png";
-import linldin from "../../assets/linkedin.png";
+
 import { motion } from "framer-motion";
 import { useState,useRef,useEffect } from "react";
 import Avatar from "../../assets/icons/me-vector.svg"
@@ -135,7 +134,7 @@ function Pages() {
             className="bg-white p-8 rounded-lg shadow-lg text-center"
           >
             {/* Modal Content */}
-            <h2>About me.</h2>
+            <h2>About me</h2>
             <p>I'm Mayur Patil🧔,<br />  a 21-year-old Indian🇮🇳 Full-Stack Developer👨‍💻. <br /> I love crafting web experiences that captivate and inspire. <br />
       From solving design challenges to building smart user interfaces, <br /> I bring innovation and creativity to every project. <br />
       Let's create something amazing together! <br />

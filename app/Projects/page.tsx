@@ -38,7 +38,7 @@ function page() {
                     <h2 className="text-lg font-semibold">Qkart</h2>
                     <p className="text-xs">
                       QKart is an e-commerce application offering a variety of
-                      products for customers to choose from.{" "}
+                      products for customers to choose from
                     </p>
                     <div className="flex">
                       <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
@@ -100,7 +100,7 @@ function page() {
                     <p className="text-xs">
                       XFlix is a video sharing platform It also features
                       uploading new videos by using external video links and
-                      playing these videos.{" "}
+                      playing these videos
                     </p>
                     <div className="flex">
                       <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">
@@ -168,7 +168,7 @@ function page() {
                   <div className="text-white m-5">
                     <h2 className="text-lg font-semibold">XBoard</h2>
                     <p className="text-xs">
-                    XBoard is a News Feed website that will feature the latest news for select topics, from Flipboard.
+                    XBoard is a News Feed website that will feature the latest news for select topics, from Flipboard
                     </p>
                     <div className="flex">
                       <p className=" backdrop-blur-sm backdrop-brightness-50 px-2 py-1 m-1 rounded-full text-xs">

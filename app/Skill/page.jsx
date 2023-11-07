@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-import Check from "../../assets/checkmark.png";
+
 import Image from "next/image";
 import Tailwind from "../../assets/icons/tailwind-css-icon.png";
 import Materil from "../../assets/icons/logo.png";
@@ -44,15 +44,15 @@ function page() {
           <div className=" text-center">
             <p>
               I value simple content structure, clean design <br /> patterns,
-              and thoughtful interactions.
-            </p>{" "}
+              and thoughtful interactions
+            </p>
             <br />
             <p>
-              {" "}
+            
               enjoy developing and designing UI using <br />
               <strong> HTMLS, CSS & SCSS ,</strong> <br />
               and also using different UI Component Libraries <br /> like <br />
-              <strong> Materail UI and Chakra UI.</strong>
+              <strong> Materail UI and Chakra UI</strong>
             </p>
           </div>
         </motion.div>
@@ -85,7 +85,7 @@ function page() {
           <div className=" text-center">
             <p>
               I like to code things from scratch, and enjoy <br /> bringing
-              ideas to life in the browser and software. .
+              ideas to life in the browser and software
             </p>
             <br />
             <p>
@@ -129,11 +129,11 @@ function page() {
           <div className=" text-center">
             <p>
             For easily collabrative & building robust system <br /> and development, I have worked and used <br />
-<strong> GIT, Github, Jenkins ,Postman </strong> for source code <br /> management and deployment purposes.
+<strong> GIT, Github, Jenkins ,Postman </strong> for source code <br /> management and deployment purposes
             </p>
             <br />
             <p>
-            Worked with <strong> Gulp, Webpack and Gradle </strong> for fast, <br /> optimised bundling of source code and making <br /> build process roboust.
+            Worked with <strong> Gulp, Webpack and Gradle </strong> for fast, <br /> optimised bundling of source code and making <br /> build process roboust
             </p>
           </div>
         </div>
